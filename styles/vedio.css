@@ -25,6 +25,27 @@
     position: relative;
   }
 
+
+  /* unvisited link */
+a:link {
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: inherit;
+}
+
+/* mouse over link */
+a:hover {
+  color: inherit;
+}
+
+/* selected link */
+a:active {
+  color: inherit;
+}
+
   .video-author,
   .video-stats {
     font-size: 12px;
